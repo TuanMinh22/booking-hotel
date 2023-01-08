@@ -1,0 +1,73 @@
+.profileContent {
+  width: 100%;
+  display: flex;
+}
+
+.profileImg {
+  flex: 3;
+  margin-top: 50px;
+  margin-left: 250px;
+  position: relative;
+}
+
+.profileImg img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profileRight {
+  flex: 5;
+  margin-top: 50px;
+}
+
+.formInput {
+  width: 40%;
+}
+
+.formInput label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.profileRight form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+/* input:hover {
+  border: none;
+  color: red;
+} */
+
+form button {
+  width: 100px;
+  background-color: #0071c2;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.profileCancelImg {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  cursor: pointer;
+  opacity: 0.5;
+}
